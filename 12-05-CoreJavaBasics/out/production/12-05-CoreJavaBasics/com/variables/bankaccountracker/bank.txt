@@ -1,0 +1,17 @@
+ Bank Account Tracker with Static & Instance Variables
+Create a BankAccount class that tracks:
+
+static int totalAccounts – Total number of accounts created (shared across all)
+
+final int accountId – Unique per account, assigned in constructor
+
+double balance – Instance variable
+
+Task:
+Create 5 accounts and deposit varying amounts.
+
+Ensure account IDs are unique using static counter.
+
+Print totalAccounts after all accounts are created.
+
+🧠 Concepts: static vs instance, final variable initialization

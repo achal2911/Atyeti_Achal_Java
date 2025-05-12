@@ -1,0 +1,17 @@
+Problem 4: Temperature Converter with Typecasting and Variable Overflows
+📝 Requirements:
+Build a TemperatureConverter class with methods to:
+Convert Celsius ↔ Fahrenheit ↔ Kelvin.
+Use:
+float for input values
+byte or short for testing overflow scenarios (e.g., store a converted value into a byte and show overflow behavior)
+Example:
+Convert 1000°C to byte and display before/after casting
+Include:
+Manual casting and automatic type promotion
+Print internal variable values to explain overflow
+🧠 Concepts Covered:
+Primitive types and memory limits
+Overflow demonstration
+Manual and implicit typecasting
+Arithmetic on different types
