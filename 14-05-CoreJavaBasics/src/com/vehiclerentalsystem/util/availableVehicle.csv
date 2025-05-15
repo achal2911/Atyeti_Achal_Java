@@ -1,6 +1,0 @@
-vehicleID,vehicleType,vehicleBrand,rentPerDay,isAvailable
-V001,Car,Toyota,1500,false
-V002,Bike,Unicon,3000,false
-V003,Truck,Ashok Leyland,2500,true
-V004,Car,Hyundai,1200,true
-V005,Truck,Tata,2200,false

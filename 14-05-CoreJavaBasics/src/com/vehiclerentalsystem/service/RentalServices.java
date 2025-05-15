@@ -4,11 +4,6 @@ import com.vehiclerentalsystem.exception.CustomerNotFoundException;
 import com.vehiclerentalsystem.exception.VehicleNotAvailableException;
 import com.vehiclerentalsystem.model.Customer;
 import com.vehiclerentalsystem.model.Vehicle;
-import com.vehiclerentalsystem.util.VehicleCSVReader;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.*;
 
 
@@ -37,9 +32,8 @@ public class RentalServices {
 
     //showing all vehicles
     public void showAvailableVehicles() {
-//
-        List<Vehicle> vehicleList = VehicleCSVReader.vehicleDataFileReader("C:\\Users\\Achal Tikale\\OneDrive - Atyeti Inc\\JavaJourneyRecap\\14-05-CoreJavaBasics\\src\\com\\vehiclerentalsystem\\util\\availableVehicle.csv");
-        vehicleList.forEach(System.out::println);
+
+        vehicles.forEach(System.out::println);
     }
 
     //renting vehicle
@@ -49,11 +43,9 @@ public class RentalServices {
             throw new CustomerNotFoundException("Customer Not Found!");
         }
 
-        String csvFilePath = "C:\\Users\\Achal Tikale\\OneDrive - Atyeti Inc\\JavaJourneyRecap\\14-05-CoreJavaBasics\\src\\com\\vehiclerentalsystem\\util\\availableVehicle.csv";
-        List<Vehicle> vehicleList = VehicleCSVReader.vehicleDataFileReader(csvFilePath);
         boolean vehicleRented = false;
 
-        for (Vehicle v : vehicleList) {
+        for (Vehicle v : vehicles) {
             if (v.getVehicleID().equals(vehicleId)) {
                 if (v.isAvailable()) {
                     v.setAvailable(false);
@@ -72,23 +64,7 @@ public class RentalServices {
             throw new VehicleNotAvailableException("Vehicle not found");
         }
 
-        // Write updated vehicle list back to CSV
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(csvFilePath))) {
-            bw.write("vehicleID,vehicleType,vehicleBrand,rentPerDay,isAvailable");
-            bw.newLine();
-            for (Vehicle v : vehicleList) {
-                String line = String.format("%s,%s,%s,%d,%s",
-                        v.getVehicleID(),
-                        v.getVehicleType(),
-                        v.getVehicleBrand(),
-                        v.getRentPerDay(),
-                        v.isAvailable());
-                bw.write(line);
-                bw.newLine();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
     }
 
     //returning vehicle
@@ -101,6 +77,7 @@ public class RentalServices {
         Vehicle v = customer.getRentedVehicle();
         double total = v.calculateRent(customer.getRentalDays());
         System.out.println("Bill: Rs" + total);
+        System.out.println("Vehicle returned successfully!");
         v.setAvailable(true);
         customer.setRentedVehicle(null);
     }
