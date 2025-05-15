@@ -24,6 +24,7 @@ public class VehicleRentalSystemMain {
 
         try {
             service.rentVehicle("U001", "B201", 3);
+            //return vehicle
             service.returnVehicle("U001");
         } catch (Exception e) {
             System.out.println(e.getMessage());
