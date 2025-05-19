@@ -1,0 +1,6 @@
+Transaction Analyzer
+Problem: Given a list of Transaction objects with fields userId, amount, and timestamp:
+Calculate total transaction amount per user.
+Filter out transactions below INR 100.
+Find top 3 users with highest total transaction amounts.
+Streams Concepts: groupingBy, summingDouble, filter, limit, sorted
