@@ -1,6 +1,0 @@
-Flight Booking System
-Problem: You have a list of bookings. Each booking has fields like flightId, passengerName, date, and fare.
-Find the total revenue generated per flight.
-List passengers flying on a specific date.
-Detect duplicate bookings using passenger name + flightId.
-Use: Collections for storage, Streams for processing.
