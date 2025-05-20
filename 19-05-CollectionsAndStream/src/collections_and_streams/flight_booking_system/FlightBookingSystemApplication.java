@@ -1,6 +1,6 @@
 package collections_and_streams.flight_booking_system;
 
-import collections_and_streams.flight_booking_system.model.FlightDetails;
+import collections_and_streams.flight_booking_system.model.FlightBookings;
 import collections_and_streams.flight_booking_system.service.FlightBookingDataReader;
 import collections_and_streams.flight_booking_system.service.FlightDataOperations;
 
@@ -12,7 +12,7 @@ public class FlightBookingSystemApplication {
 
         String flightBookingDetailsFilepath="C:\\Users\\Achal Tikale\\IdeaProjects\\Atyeti_Achal_Java\\19-05-CollectionsAndStream\\src\\collections_and_streams\\flight_booking_system\\util\\bookings.csv";
 
-        List<FlightDetails> flightDetails = FlightBookingDataReader.readFlightBookingsData(flightBookingDetailsFilepath);
+        List<FlightBookings> flightDetails = FlightBookingDataReader.readFlightBookingsData(flightBookingDetailsFilepath);
 
         //Find the total revenue generated per flight.
         System.out.println("Total Revenue generated per Flight:");
@@ -21,7 +21,13 @@ public class FlightBookingSystemApplication {
 
         //List passengers flying on a specific date.
         System.out.println("List passengers flying on a specific date:");
-        FlightDataOperations.findListOfPassengerByDate(flightDetails);
+        FlightDataOperations.passengersFlyingOnSpecificDate(flightDetails);
+        System.out.println("--------------------------------------------------------");
+
+        //Detect duplicate bookings using passenger name + flightId.
+        System.out.println("duplicate bookings using passenger name  and flightId:");
+        FlightDataOperations.findDuplicateBookings(flightDetails);
+
 
 
     }

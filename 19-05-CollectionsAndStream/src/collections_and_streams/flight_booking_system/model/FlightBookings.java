@@ -2,13 +2,13 @@ package collections_and_streams.flight_booking_system.model;
 
 import java.util.Date;
 
-public class FlightDetails {
+public class FlightBookings {
     private String flightId;
     private String passengerName;
     private Date date;
     private double fare;
 
-    public FlightDetails(String flightId, String passengerName, Date date, double fare) {
+    public FlightBookings(String flightId, String passengerName, Date date, double fare) {
         this.flightId = flightId;
         this.passengerName = passengerName;
         this.date = date;
