@@ -26,6 +26,6 @@ public class OrganizationHierarchyProcessingMain {
         //System.out.println(EmployeeService.calculateAverageTeamSalaryPerManager(employeeDataList))
         ;
 
-
+//sad
     }
 }
