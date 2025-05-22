@@ -23,8 +23,9 @@ public class OrganizationDataReader {
             String employeeId=split[0];
             String employeeName=split[1];
             String managerId=((split[2].isEmpty()||split[2].equalsIgnoreCase("null"))?null:split[2]);
+            String department=split[3];
             double salary=Double.parseDouble(split[4]);
-            EmployeeData employeeData = new EmployeeData(employeeId,employeeName,managerId,salary);
+            EmployeeData employeeData = new EmployeeData(employeeId,employeeName,managerId,department,salary);
            employees.add(employeeData);
         }
 

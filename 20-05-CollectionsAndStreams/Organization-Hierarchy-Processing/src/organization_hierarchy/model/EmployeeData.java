@@ -4,12 +4,14 @@ public class EmployeeData {
     private String employeeId;
     private String employeeName;
     private String managerId;
+    private String department;
     private double salary;
 
-    public EmployeeData(String employeeId, String employeeName, String managerId, double salary) {
+    public EmployeeData(String employeeId, String employeeName, String managerId, String department, double salary) {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
         this.managerId = managerId;
+        this.department = department;
         this.salary = salary;
     }
 
@@ -37,6 +39,14 @@ public class EmployeeData {
         this.managerId = managerId;
     }
 
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
     public double getSalary() {
         return salary;
     }
@@ -49,10 +59,9 @@ public class EmployeeData {
     public String toString() {
         return
                 "employeeId='" + employeeId +
-                        ", employeeName='" + employeeName +
-                        ", managerId='" + managerId +
-                        ", salary=" + salary;
+                ", employeeName='" + employeeName +
+                ", managerId='" + managerId +
+                ", department='" + department +
+                ", salary=" + salary ;
     }
-
-    //jwsd
 }

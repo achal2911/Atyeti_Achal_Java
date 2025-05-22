@@ -20,36 +20,32 @@ public class EmployeeService {
         return listOfEmployeesWorkingUnderEachManager;
     }
 
-//    public static double calculateAverageTeamSalaryPerManager(List<EmployeeData> employeeDataList)
-//    {
-//        Map<String, List<EmployeeData>> listEmployeesUnderManager= listEmployeesUnderManager(employeeDataList);
-//
-//        double d=0.0;
-//        for (Map<String, List<EmployeeData>> map:listEmployeesUnderManager.entrySet())
-//        {
-//            d=map.stream().map(EmployeeData::getSalary).collect(Collectors.averagingDouble(x -> x.doubleValue()));
-//        }
-//        return d;
-//
-//    }
+    public static Map<String, Double> calculateAverageSalaryPerManager(List<EmployeeData> employeeDataList) {
+        Map<String, List<EmployeeData>> listEmployeesUnderManager = listEmployeesUnderManager(employeeDataList);
+        return listEmployeesUnderManager.entrySet().stream()
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        entry -> entry.getValue().stream()
+                                .collect(Collectors.averagingDouble(EmployeeData::getSalary))
+                ));
+    }
 
 
-//    public static Map<String, Double> topThreeDepartmentSalary(List<EmployeeData> employees) {
-//
-//        return employees.stream()
-//                .filter(x -> x.getManagerId() != null)
-//                .collect(Collectors.groupingBy(
-//                        x -> x.getDepartment(),
-//                        Collectors.summingDouble(Employee::getSalary)
-//                )).entrySet().stream()
-//                .sorted((x, y) -> (int) (y.getValue() - x.getValue()))
-//                .limit(3)
-//                .collect(Collectors.toMap(
-//                        Map.Entry::getKey,
-//                        Map.Entry::getValue
-//                ));
-//    }
+    public static Map<String, Double> topThreeDepartmentSalary(List<EmployeeData> employees) {
 
-//dgdhd
+        return employees.stream()
+                .filter(x -> x.getManagerId() != null)
+                .collect(Collectors.groupingBy(
+                        EmployeeData::getDepartment,
+                        Collectors.summingDouble(EmployeeData::getSalary)
+                )).entrySet().stream()
+                .sorted((x, y) -> (int) (y.getValue() - x.getValue()))
+                .limit(3)
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        Map.Entry::getValue
+                ));
+    }
+
 
 }
