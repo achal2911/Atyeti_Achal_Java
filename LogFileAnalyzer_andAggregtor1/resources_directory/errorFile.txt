@@ -1,5 +1,0 @@
-Table 'logger' already exists
-Table 'logger' already exists
-Table 'logger' already exists
-Table 'logger' already exists
-Table 'logger' already exists
