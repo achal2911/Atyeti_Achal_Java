@@ -1,0 +1,12 @@
+Complex Organization Hierarchy Processing
+Scenario: You have a list of Employee objects. Each employee has:
+Problem Statement:
+Build a Map<ManagerName, List<Employee>> using managerId and employee name.
+Find the average salary of each manager’s team.
+Find top 3 departments by total team salary.
+Detect cyclic manager references (an employee managing their own manager directly or indirectly).
+Challenge Areas:
+Recursion
+groupingBy, mapping, filter
+Preventing infinite loops
+Cross-referencing object data
