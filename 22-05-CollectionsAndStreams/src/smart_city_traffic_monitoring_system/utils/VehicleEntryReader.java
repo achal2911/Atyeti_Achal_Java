@@ -38,4 +38,5 @@ public class VehicleEntryReader {
         return vehicleEntries;
     }
 
+
 }
