@@ -1,4 +1,4 @@
-package smart_city_traffic_monitoring_system.model;
+package src.smart_city_traffic_monitoring_system.model;
 
 import java.time.LocalDateTime;
 
@@ -61,10 +61,10 @@ public class VehicleEntry {
     public String toString() {
         return
                 "vehicleId='" + vehicleId +
-                ", vehicleType='" + vehicleType +
-                ", location='" + location +
-                ", entryTime=" + entryTime +
-                ", exitTime=" + exitTime ;
+                        ", vehicleType='" + vehicleType +
+                        ", location='" + location +
+                        ", entryTime=" + entryTime +
+                        ", exitTime=" + exitTime;
     }
 
 }

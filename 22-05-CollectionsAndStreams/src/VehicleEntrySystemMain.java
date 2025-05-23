@@ -1,7 +1,9 @@
-import smart_city_traffic_monitoring_system.model.VehicleEntry;
-import smart_city_traffic_monitoring_system.service.VehicleEntryServices;
-import smart_city_traffic_monitoring_system.utils.VehicleEntryReader;
+package src;
 
+
+import src.smart_city_traffic_monitoring_system.model.VehicleEntry;
+import src.smart_city_traffic_monitoring_system.utils.VehicleEntryReader;
+import src.smart_city_traffic_monitoring_system.service.*;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;

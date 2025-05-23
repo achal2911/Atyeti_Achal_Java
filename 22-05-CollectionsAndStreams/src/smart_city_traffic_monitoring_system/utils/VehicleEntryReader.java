@@ -1,6 +1,7 @@
-package smart_city_traffic_monitoring_system.utils;
+package src.smart_city_traffic_monitoring_system.utils;
 
-import smart_city_traffic_monitoring_system.model.VehicleEntry;
+
+import src.smart_city_traffic_monitoring_system.model.VehicleEntry;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
