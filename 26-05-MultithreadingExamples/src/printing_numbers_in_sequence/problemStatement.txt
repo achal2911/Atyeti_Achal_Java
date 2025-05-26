@@ -1,0 +1,9 @@
+Print Numbers in Sequence Using Two Threads
+Problem:
+Create two threads: one prints odd numbers and the other prints even numbers from 1 to N, but the output must be strictly sequential (1, 2, 3, 4, ..., N).
+Requirements:
+Use thread coordination techniques like wait()/notify() or Lock and Condition.
+Threads must alternate printing numbers in order.
+Expected Behavior:
+Output is numbers from 1 to N printed in order.
+Odd and even threads take turns printing.

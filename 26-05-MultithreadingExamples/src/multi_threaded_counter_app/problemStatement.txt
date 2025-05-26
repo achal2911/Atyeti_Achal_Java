@@ -1,0 +1,12 @@
+Multi-threaded Counter with Synchronization
+Problem:
+Write a Java program where multiple threads increment a shared integer counter 1000 times each.
+The program should create N threads (user-defined), each performing increments on the same counter.
+Requirements:
+Use a shared integer variable to hold the counter.
+Synchronize the increment operation to avoid race conditions.
+After all threads finish, print the final value of the counter.
+Final value should be N * 1000.
+Expected Behavior:
+Without synchronization, the final count will be less than expected due to race conditions.
+With synchronization (e.g., using synchronized block or AtomicInteger), the final count must be accurate.
