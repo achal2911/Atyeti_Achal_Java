@@ -1,0 +1,10 @@
+Deadlock Simulation and Resolution
+Problem:
+Create a program that simulates a deadlock:
+Two threads each lock two resources in opposite order.
+Threads wait indefinitely causing deadlock.
+Then fix the code to avoid deadlock using proper locking strategy.
+Requirements:
+Use synchronized blocks for locking.
+Show the deadlock happening (program freezes).
+Implement a solution like lock ordering or tryLock() with timeout.
