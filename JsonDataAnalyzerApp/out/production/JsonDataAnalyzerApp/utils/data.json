@@ -1,0 +1,157 @@
+{
+  "settings": {
+    "theme": "dark",
+    "notifications": {
+      "sms": false,
+      "email": true,
+      "push": {
+        "enabled": true,
+        "frequency": "daily"
+      }
+    }
+  },
+  "country": "New Company Inc",
+  "projects": [
+    {
+      "stack": {
+        "database": "PostgreSQL",
+        "backend": "Spring Boot",
+        "frontend": "React"
+      },
+      "teamSize": 6,
+      "name": "updated",
+      "id": "P005",
+      "status": "Active"
+    },
+    {
+      "stack": {
+        "database": "MongoDB",
+        "backend": "Node.js",
+        "frontend": "Angular"
+      },
+      "teamSize": 4,
+      "name": "updated",
+      "id": "P005",
+      "status": "Completed"
+    }
+  ],
+  "founded": 2010,
+  "active": true,
+  "services": "new value",
+  "technologies": {
+    "cloud": {
+      "provider": "GCP",
+      "services": [
+        "Compute Engine",
+        "Cloud Storage",
+        "BigQuery"
+      ]
+    },
+    "languages": [
+      "Java",
+      "Python",
+      "JavaScript"
+    ],
+    "tools": [
+      "Git",
+      "Jenkins",
+      "Docker"
+    ]
+  },
+  "feedback": {
+    "2024": {"Q1": 4.9},
+    "2023": {
+      "Q1": 4.5,
+      "Q2": 4.7,
+      "Q3": 4.6,
+      "Q4": 4.8
+    }
+  },
+  "partnerships": [
+    {
+      "partner": "CloudX",
+      "startYear": 2019,
+      "active": true
+    },
+    {
+      "partner": "SecureNet",
+      "startYear": 2021,
+      "active": false
+    }
+  ],
+  "compliance": {
+    "ISO27001": true,
+    "SOC2": {
+      "type2": false,
+      "type1": true
+    }
+  },
+  "company": "new new comp ltd",
+  "location": {
+    "country": "USA",
+    "address": {
+      "zip": "94105",
+      "street": "123 Market St"
+    },
+    "city": "San Francisco",
+    "state": "California"
+  },
+  "departments": [
+    {
+      "head": "Alice Johnson",
+      "teams": [
+        {
+          "members": [
+            {
+              "name": "updated",
+              "experience": 5
+            },
+            {
+              "name": "updated",
+              "experience": 3
+            }
+          ],
+          "name": "updated",
+          "lead": "Tom Smith"
+        },
+        {
+          "members": [
+            {
+              "name": "updated",
+              "experience": 2
+            },
+            {
+              "name": "updated",
+              "experience": 4
+            }
+          ],
+          "name": "updated",
+          "lead": "Samantha Lee"
+        }
+      ],
+      "name": "updated"
+    },
+    {
+      "head": "Robert King",
+      "teams": [{
+        "members": [
+          {
+            "name": "updated",
+            "experience": 6
+          },
+          {
+            "name": "updated",
+            "experience": 1
+          }
+        ],
+        "name": "updated",
+        "lead": "Jill White"
+      }],
+      "name": "updated"
+    }
+  ],
+  "announcements": {
+    "next": "Product launch scheduled for Q3",
+    "latest": "Q2 earnings exceed expectations"
+  }
+}
