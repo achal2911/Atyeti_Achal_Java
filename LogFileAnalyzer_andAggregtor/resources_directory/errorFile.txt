@@ -1,9 +1,0 @@
-Table 'logger' already exists
-Table 'logger' already exists
-Table 'logger' already exists
-Table 'logger' already exists
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if not exists(id INT AUTO_INCREMENT PRIMARY KEY, timestamp TIMESTAMP DEFAULT CUR' at line 1
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if not exists(id INT AUTO_INCREMENT PRIMARY KEY, timestamp TIMESTAMP DEFAULT CUR' at line 1
-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exist logger (id INT AUTO_INCREMENT PRIMARY KEY, timestamp TIMESTAMP DEFAULT CUR' at line 1
-No suitable driver found for jdbc:mysql://localhost:3306/logs_db
-No suitable driver found for jdbc:mysql://localhost:3306/logs_db
