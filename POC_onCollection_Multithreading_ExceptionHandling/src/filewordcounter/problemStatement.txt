@@ -1,0 +1,6 @@
+File Word Counter
+What happens?
+Have multiple .txt files.
+Each thread reads one file and counts words.
+Store word counts in Map<String, Integer>.
+If a file is missing, handle FileNotFoundException.

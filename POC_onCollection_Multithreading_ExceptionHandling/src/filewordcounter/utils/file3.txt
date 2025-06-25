@@ -1,0 +1,1 @@
+Collections in Java provide a set of classes and interfaces that implement commonly reusable collection data structures.
