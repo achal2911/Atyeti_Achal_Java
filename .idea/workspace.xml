@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62fc187-0516-4f46-9f5a-97415eafb17b" name="Changes" comment="Collections(arraylist)" />
+    <list default="true" id="f62fc187-0516-4f46-9f5a-97415eafb17b" name="Changes" comment="Collections(arraylist)">
+      <change afterPath="$PROJECT_DIR$/Collections/Collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/Linkedlist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/addtwo_numberslinkedList/AddingTwoListApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/addtwo_numberslinkedList/LinkedListAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/addtwo_numberslinkedList/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/intersection_oftwolinkedlist/IntersectionFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/reversinglinkedlist/LinkedListReverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/reversinglinkedlist/ReverseLinkedListApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/songs_playlist_manager/PlaylistManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/songs_playlist_manager/PlaylistService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddingTwoListApplication.executor": "Run",
     "Application.ArrayListDemo.executor": "Run",
     "Application.ArrayListInternalResizeDemo.executor": "Run",
     "Application.ArrayListMaxDifferenceReducer.executor": "Run",
@@ -56,6 +70,9 @@
     "Application.DatabaseClient.executor": "Run",
     "Application.EmailSendingSystem.executor": "Run",
     "Application.FileWordCounterSystem.executor": "Run",
+    "Application.IntersectionFinder.executor": "Run",
+    "Application.PlaylistManager.executor": "Run",
+    "Application.ReverseLinkedListApp.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -63,6 +80,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/AchalTikale/IdeaProjects/Atyeti_Achal_Java",

@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/26-05-MultithreadingExamples/26-05-MultithreadingExamples.iml" filepath="$PROJECT_DIR$/26-05-MultithreadingExamples/26-05-MultithreadingExamples.iml" />
       <module fileurl="file://$PROJECT_DIR$/27-05-Multithreading/27-05-Multithreading.iml" filepath="$PROJECT_DIR$/27-05-Multithreading/27-05-Multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Atyeti_Achal_Java.iml" filepath="$PROJECT_DIR$/.idea/Atyeti_Achal_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Linkedlist/Linkedlist.iml" filepath="$PROJECT_DIR$/Collections/Linkedlist/Linkedlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/20-05-CollectionsAndStreams/Organization-Hierarchy-Processing/Organization-Hierarchy-Processing.iml" filepath="$PROJECT_DIR$/20-05-CollectionsAndStreams/Organization-Hierarchy-Processing/Organization-Hierarchy-Processing.iml" />
       <module fileurl="file://$PROJECT_DIR$/POC_onCollection_Multithreading_ExceptionHandling/POC_onMultithreading_ExceptionHandling.iml" filepath="$PROJECT_DIR$/POC_onCollection_Multithreading_ExceptionHandling/POC_onMultithreading_ExceptionHandling.iml" />
     </modules>
