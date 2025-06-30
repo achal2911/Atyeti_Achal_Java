@@ -1,9 +1,0 @@
-Bank Account System
-What happens?
-Store all accounts in HashMap<Integer, Double> → (account number, balance).
-Use threads for:
-Depositing money
-Withdrawing money
-Handle exceptions like:
-InsufficientBalanceException
-InvalidAccountException
