@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Collections/Linkedlist/Linkedlist.iml" filepath="$PROJECT_DIR$/Collections/Linkedlist/Linkedlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/20-05-CollectionsAndStreams/Organization-Hierarchy-Processing/Organization-Hierarchy-Processing.iml" filepath="$PROJECT_DIR$/20-05-CollectionsAndStreams/Organization-Hierarchy-Processing/Organization-Hierarchy-Processing.iml" />
       <module fileurl="file://$PROJECT_DIR$/POC_onCollection_Multithreading_ExceptionHandling/POC_onMultithreading_ExceptionHandling.iml" filepath="$PROJECT_DIR$/POC_onCollection_Multithreading_ExceptionHandling/POC_onMultithreading_ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/queue/queue.iml" filepath="$PROJECT_DIR$/Collections/queue/queue.iml" />
     </modules>
   </component>
 </project>

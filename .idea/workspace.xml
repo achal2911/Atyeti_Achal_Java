@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f62fc187-0516-4f46-9f5a-97415eafb17b" name="Changes" comment="Collections(arraylist)">
-      <change afterPath="$PROJECT_DIR$/Collections/Collections.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/Linkedlist.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/addtwo_numberslinkedList/AddingTwoListApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/addtwo_numberslinkedList/LinkedListAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/addtwo_numberslinkedList/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/intersection_oftwolinkedlist/IntersectionFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/reversinglinkedlist/LinkedListReverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/reversinglinkedlist/ReverseLinkedListApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/songs_playlist_manager/PlaylistManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collections/Linkedlist/src/songs_playlist_manager/PlaylistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/queue/queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/queue/src/ticketqueuesystem/TicketQueueSystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/queue/src/ticketqueuesystem/module/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/queue/src/ticketqueuesystem/service/TicketPriorityComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/queue/src/ticketqueuesystem/service/TicketQueueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/queue/src/ticketqueuesystem/util/QueueReaderFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/queue/src/ticketqueuesystem/util/QueueWriterToFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/queue/src/ticketqueuesystem/util/queuedemo.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -27,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -43,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/achal2911/Atyeti_Achal_Java.git&quot;,
-    &quot;accountId&quot;: &quot;4b4f85dd-b12a-4894-b7df-8170a1e6fc53&quot;
+    &quot;accountId&quot;: &quot;fa5a8c66-c795-41ee-be1b-a3040e638f02&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -73,6 +72,7 @@
     "Application.IntersectionFinder.executor": "Run",
     "Application.PlaylistManager.executor": "Run",
     "Application.ReverseLinkedListApp.executor": "Run",
+    "Application.TicketQueueSystemApplication.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750940283166</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Collections(arraylist)">
+      <option name="closed" value="true" />
+      <created>1751284363527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751284363528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
