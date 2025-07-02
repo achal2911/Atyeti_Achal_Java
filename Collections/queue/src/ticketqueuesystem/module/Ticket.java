@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Ticket implements Serializable {
-    private static final long serialVersionUID  = 1L;
+    private static final long serialVersionUID = 1L;
 
     private static int ticketCounter = 1001;
     private final int ticketId;
