@@ -1,11 +1,10 @@
-package ticketqueuesystem.util;
+package ticketqueuesystemapplication.util;
 
-import ticketqueuesystem.module.Ticket;
-import ticketqueuesystem.service.TicketPriorityComparator;
+import ticketqueuesystemapplication.module.Ticket;
+import ticketqueuesystemapplication.service.TicketPriorityComparator;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
-import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 

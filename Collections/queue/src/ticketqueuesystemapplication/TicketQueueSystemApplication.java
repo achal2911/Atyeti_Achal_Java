@@ -1,9 +1,9 @@
-package ticketqueuesystem;
+package ticketqueuesystemapplication;
 
-import ticketqueuesystem.module.Ticket;
-import ticketqueuesystem.service.TicketPriorityComparator;
-import ticketqueuesystem.util.QueueReaderFromFile;
-import ticketqueuesystem.util.QueueWriterToFile;
+import ticketqueuesystemapplication.module.Ticket;
+import ticketqueuesystemapplication.service.TicketPriorityComparator;
+import ticketqueuesystemapplication.util.QueueReaderFromFile;
+import ticketqueuesystemapplication.util.QueueWriterToFile;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;

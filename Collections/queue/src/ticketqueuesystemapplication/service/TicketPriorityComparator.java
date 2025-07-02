@@ -1,6 +1,6 @@
-package ticketqueuesystem.service;
+package ticketqueuesystemapplication.service;
 
-import ticketqueuesystem.module.Ticket;
+import ticketqueuesystemapplication.module.Ticket;
 
 import java.io.Serializable;
 import java.util.Comparator;

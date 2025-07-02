@@ -1,6 +1,6 @@
-package ticketqueuesystem.util;
+package ticketqueuesystemapplication.util;
 
-import ticketqueuesystem.module.Ticket;
+import ticketqueuesystemapplication.module.Ticket;
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;

@@ -1,4 +1,4 @@
-package ticketqueuesystem.module;
+package ticketqueuesystemapplication.module;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
