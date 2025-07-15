@@ -1,0 +1,12 @@
+2025-07-15T16:25:31.165383200 - File: POR223_TXN_20250714.csv - Error: Invalid header. Expected: TXN_ID,ACCOUNT_NO,TXN_DATE,AMOUNT,CURRENCY,STATUS
+2025-07-15T16:27:08.126238 - File: POR223_TXN_20250714.csv - Error: Line 2 is empty.
+2025-07-15T16:27:43.774065800 - File: POR223_TXN_20250714.csv - Error: Line 2 is empty.
+2025-07-15T16:28:21.364032900 - File: POR223_TXN_20250714.csv - Error: Line 3: Expected 6 columns but found 5. Line: TXN002,9876543210,2025-07-15,500.00,USD
+2025-07-15T16:29:18.536492800 - File: POR223_TXN_20250714.csv - Error: Line 3: One or more fields are empty. Line: TXN002,9876543210,2025-07-15,500.00,,PENDIN
+2025-07-15T16:30:10.478448900 - File: POR223_TXN_20250714.csv - Error: Line 3 is empty.
+2025-07-15T16:37:37.393310700 - File: POR223_TXN_20250714.csv - Error: Line 2 is empty.
+2025-07-15T17:18:14.218024100 - File: xyz789_txn_20250701.csv - Error: Invalid header in file: xyz789_txn_20250701.csv
+2025-07-15T17:18:40.550471 - File: POR223_TXN_20250714.csv - Error: Invalid row at line 3 in file: POR223_TXN_20250714.csv
+2025-07-15T17:19:46.539980800 - File: POR223_TXN_20250714.csv - Error: Invalid row at line 2 in file: POR223_TXN_20250714.csv
+2025-07-15T17:39:44.032986100 - File: POR223_TXN_20250714.csv - Error: Invalid row at line 2 in file: POR223_TXN_20250714.csv
+2025-07-15T17:44:58.783015600 - File: POR223_TXN_20250714.csv - Error: Invalid row at line 2 in file: POR223_TXN_20250714.csv

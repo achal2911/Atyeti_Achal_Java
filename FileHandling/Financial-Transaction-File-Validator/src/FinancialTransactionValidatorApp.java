@@ -1,17 +1,13 @@
+import config.ValidationConfig;
 import services.FileNameValidator;
+import utils.FilesReader;
 
 import java.io.File;
-import java.util.logging.Logger;
 
-public class FinancialTransactionValidatorApp
-{
-    public static void main(String[] args)
-    {
-        String directoryPath="C:\\Users\\AchalTikale\\IdeaProjects\\Atyeti_Achal_Java\\FileHandling\\Financial-Transaction-File-Validator\\directory";
+public class FinancialTransactionValidatorApp {
+    public static void main(String[] args) {
 
-
-
-        File inputDirectory=new File(directoryPath);
+        File inputDirectory = new File(ValidationConfig.DIRECTORY_PATH);
 
         if (!inputDirectory.exists() || !inputDirectory.isDirectory()) {
             System.out.println("Input folder not found.");
@@ -27,9 +23,9 @@ public class FinancialTransactionValidatorApp
             String fileName = file.getName();
             if (FileNameValidator.isValidFileName(fileName)) {
                 System.out.println("Valid file name: " + fileName);
-
+                FilesReader.readingOfFile(file);
             } else {
-                System.out.println("Invalid file name: " + fileName);
+                System.out.println("Invalid file name: " + file.getName());
 
             }
 
