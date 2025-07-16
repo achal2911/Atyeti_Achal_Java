@@ -2,9 +2,16 @@ import config.ValidationConfig;
 import utils.FileProcessor;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.*;
+import java.util.logging.Logger;
 
 public class FinancialTransactionValidatorApp {
-    public static void main(String[] args) {
+    private static final Logger logger = Logger.getLogger(FinancialTransactionValidatorApp.class.getName());
+
+    public static void main(String[] args)
+    {
 
         File inputDirectory = new File(ValidationConfig.DIRECTORY_PATH);
 
@@ -18,12 +25,24 @@ public class FinancialTransactionValidatorApp {
             System.out.println("No files found.");
             return;
         }
-        for (File file : files) {
-            String fileName = file.getName();
-            FileProcessor.processingOfFile(file);
 
+
+        ExecutorService executorService = Executors.newFixedThreadPool(files.length);
+        List<Future> futures = new ArrayList<>();
+        try {
+            for (File file : files) {
+                Future<?> submit = executorService.submit(() -> FileProcessor.processingOfFile(file));
+                futures.add(submit);
+            }
+
+            executorService.shutdown();
+            for (Future f : futures) {
+                f.get();
+            }
+        } catch (ExecutionException | InterruptedException e) {
+            System.out.println(e.getMessage());
         }
-
+        logger.info("All files submitted for processing.");
 
     }
 }

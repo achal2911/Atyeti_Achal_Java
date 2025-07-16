@@ -39,3 +39,7 @@
 2025-07-16T16:12:47.110181300 - File: LMN291_TXN_20250716.csv - Error: Invalid Status: FAIED in file LMN291_TXN_20250716.csv
 2025-07-16T16:12:47.126300500 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
 2025-07-16T16:12:47.129300400 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-16T17:57:40.131348600 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-16T17:57:40.131348600 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-16T17:59:30.124593400 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-16T17:59:30.126592400 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
