@@ -1,6 +1,5 @@
 import config.ValidationConfig;
-import services.FileNameValidator;
-import utils.FilesReader;
+import utils.FileProcessor;
 
 import java.io.File;
 
@@ -21,13 +20,7 @@ public class FinancialTransactionValidatorApp {
         }
         for (File file : files) {
             String fileName = file.getName();
-            if (FileNameValidator.isValidFileName(fileName)) {
-                System.out.println("Valid file name: " + fileName);
-                FilesReader.readingOfFile(file);
-            } else {
-                System.out.println("Invalid file name: " + file.getName());
-
-            }
+            FileProcessor.processingOfFile(file);
 
         }
 
