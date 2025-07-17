@@ -30,7 +30,7 @@
 2025-07-16T16:10:00.877510800 - File: LMN291_TXN_20250716.csv - Error: Account should be 10-digit numeric: 134567890 in file LMN291_TXN_20250716.csv
 2025-07-16T16:10:00.893342500 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
 2025-07-16T16:10:00.895343100 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
-2025-07-16T16:10:44.558691900 - File: LMN291_TXN_20250716.csv - Error: Amount should be positive decimal number 
+2025-07-16T16:10:44.558691900 - File: LMN291_TXN_20250716.csv - Error: Amount should be positive decimal number
 2025-07-16T16:10:44.574977400 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
 2025-07-16T16:10:44.577568700 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
 2025-07-16T16:12:18.111132100 - File: LMN291_TXN_20250716.csv - Error: Invalid currency: UD in file LMN291_TXN_20250716.csv
@@ -43,3 +43,21 @@
 2025-07-16T17:57:40.131348600 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
 2025-07-16T17:59:30.124593400 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
 2025-07-16T17:59:30.126592400 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-17T10:21:51.215154900 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-17T10:21:51.216193900 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-17T10:21:51.215154900 - File: ABC123_TXN_20250715.csv - Error: Invalid filename: ABC123_TXN_20250715.csv
+2025-07-17T10:29:48.239519400 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-17T10:29:48.239519400 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-17T10:29:48.240519700 - File: ABC123_TXN_20250715.csv - Error: Invalid filename: ABC123_TXN_20250715.csv
+2025-07-17T10:33:48.225691 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-17T10:33:48.226600700 - File: ABC123_TXN_20250715.csv - Error: Invalid filename: ABC123_TXN_20250715.csv
+2025-07-17T10:33:48.225691 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-17T10:43:29.373984400 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-17T10:43:29.373984400 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-17T10:43:29.376164400 - File: ABC123_TXN_20250715.csv - Error: Invalid filename: ABC123_TXN_20250715.csv
+2025-07-17T10:59:38.547023 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-17T10:59:38.547023 - File: ABC123_TXN_20250715.csv - Error: Invalid filename: ABC123_TXN_20250715.csv
+2025-07-17T10:59:38.547023 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-17T11:10:41.228425600 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-17T11:10:41.228425600 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-17T11:10:41.229810800 - File: ABC123_TXN_20250715.csv - Error: Invalid filename: ABC123_TXN_20250715.csv

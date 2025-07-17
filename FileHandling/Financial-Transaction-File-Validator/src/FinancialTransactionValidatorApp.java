@@ -10,8 +10,7 @@ import java.util.logging.Logger;
 public class FinancialTransactionValidatorApp {
     private static final Logger logger = Logger.getLogger(FinancialTransactionValidatorApp.class.getName());
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         File inputDirectory = new File(ValidationConfig.DIRECTORY_PATH);
 
