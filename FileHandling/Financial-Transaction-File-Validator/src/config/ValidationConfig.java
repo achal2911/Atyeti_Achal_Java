@@ -8,4 +8,5 @@ public interface ValidationConfig {
     String ERROR_LOG_FILE_PATH = "C:\\Users\\AchalTikale\\IdeaProjects\\Atyeti_Achal_Java\\FileHandling\\Financial-Transaction-File-Validator\\rejectedFiles_directory\\errorLogs.txt";
     String REJECTED_DIRECTORY_PATH="FileHandling/Financial-Transaction-File-Validator/rejectedFiles_directory";
     String VALIDATED_DIRECTORY_PATH="FileHandling/Financial-Transaction-File-Validator/validatedFiles_directory";
+    String ARCHIVED_DIRECTORY_PATH="FileHandling/Financial-Transaction-File-Validator/archived";
 }

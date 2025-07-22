@@ -1,5 +1,6 @@
 import config.ValidationConfig;
 import utils.FileProcessor;
+import utils.ValidatedFileEncryptor;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -38,6 +39,8 @@ public class FinancialTransactionValidatorApp {
             for (Future f : futures) {
                 f.get();
             }
+            ValidatedFileEncryptor.encryptAllValidatedFiles();
+            logger.info("all validated files are successfully encrypted and moved to archived directory");
         } catch (ExecutionException | InterruptedException e) {
             System.out.println(e.getMessage());
         }
