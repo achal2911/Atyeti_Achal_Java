@@ -1,16 +1,16 @@
-package utils;
+package services;
 
 import config.ValidationConfig;
+import utils.FileEncryptor;
 
-import javax.crypto.EncryptedPrivateKeyInfo;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import java.io.File;
 import java.util.logging.Logger;
 
-public class ValidatedFileEncryptor
+public class FileEncryptorValidator
 {
-    private static final Logger logger = Logger.getLogger(ValidatedFileEncryptor.class.getName());
+    private static final Logger logger = Logger.getLogger(FileEncryptorValidator.class.getName());
 
     public static void encryptAllValidatedFiles() {
         File validatedDir = new File(ValidationConfig.VALIDATED_DIRECTORY_PATH);

@@ -24,28 +24,31 @@ public class FileProcessor {
             String header = reader.readLine();
 
             if (!FileNameValidator.isValidFileName(fileName)) {
-                throw new InvalidFileException("Invalid filename: " + fileName);
+                throw new InvalidFileException("Invalid filename");
             }
             if (!FileContentValidator.isValidHeader(header)) {
-                throw new InvalidFileException("Invalid header in file: " + fileName);
+                throw new InvalidFileException("Invalid header in file");
             }
 
             String line;
             while ((line = reader.readLine()) != null) {
                 if (!FileContentValidator.isValidRow(line)) {
-                    throw new InvalidFileException("Invalid row in file: " + fileName);
+                    throw new InvalidFileException("Invalid row in file");
                 }
             }
             logger.info("File processed successfully!! " + fileName);
             reader.close();
             FileHandler.moveFileToDirectory(file, ValidationConfig.VALIDATED_DIRECTORY_PATH);
+            DailySummaryLogger.logSummary(fileName, "VALID", null);
 
         } catch (InvalidFileException | IOException e) {
             logger.warning(e.getMessage());
             ErrorWriter.writeErrorToFile(fileName, e.getMessage());
             FileHandler.moveFileToDirectory(file, ValidationConfig.REJECTED_DIRECTORY_PATH);
+            DailySummaryLogger.logSummary(fileName, "INVALID", e.getLocalizedMessage());
         }
     }
 
-
 }
+
+

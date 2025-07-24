@@ -64,3 +64,20 @@
 2025-07-22T11:54:58.632298500 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
 2025-07-22T11:54:58.632298500 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
 2025-07-22T11:54:58.632298500 - File: ABC123_TXN_20250715.csv - Error: Invalid filename: ABC123_TXN_20250715.csv
+2025-07-24T10:42:38.241247900 - File: BIG456_TXN_20250724.csv - Error: Invalid row in file: BIG456_TXN_20250724.csv
+2025-07-24T10:42:38.232387800 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-24T10:42:38.234488500 - File: XYZ_TXN_20250724.csv - Error: Invalid header in file: XYZ_TXN_20250724.csv
+2025-07-24T10:42:38.232387800 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-24T10:42:38.233488400 - File: ABC123_TXN_20250715.csv - Error: Invalid filename: ABC123_TXN_20250715.csv
+2025-07-24T11:08:26.647550200 - File: xyz789_txn_20250701.csv - Error: Invalid filename: xyz789_txn_20250701.csv
+2025-07-24T11:08:26.650704100 - File: BIG456_TXN_20250724.csv - Error: Invalid row in file: BIG456_TXN_20250724.csv
+2025-07-24T11:08:26.647550200 - File: POR223_TXN_20250714.csv - Error: Invalid filename: POR223_TXN_20250714.csv
+2025-07-24T11:17:32.742086500 - File: BIG456_TXN_20250724.csv - Error: Invalid row in file
+2025-07-24T11:17:32.740501800 - File: POR223_TXN_20250714.csv - Error: Invalid filename
+2025-07-24T11:17:32.740501800 - File: xyz789_txn_20250701.csv - Error: Invalid filename
+2025-07-24T11:25:53.290843600 - File: xyz789_txn_20250701.csv - Error: Invalid filename
+2025-07-24T11:25:53.291848900 - File: BIG456_TXN_20250724.csv - Error: Invalid row in file
+2025-07-24T11:25:53.290843600 - File: POR223_TXN_20250714.csv - Error: Invalid filename
+2025-07-24T11:33:00.435604600 - File: POR223_TXN_20250714.csv - Error: Invalid filename
+2025-07-24T11:33:00.435604600 - File: xyz789_txn_20250701.csv - Error: Invalid filename
+2025-07-24T11:33:00.435955500 - File: BIG456_TXN_20250724.csv - Error: Invalid row in file

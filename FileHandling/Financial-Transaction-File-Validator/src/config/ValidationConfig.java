@@ -9,4 +9,5 @@ public interface ValidationConfig {
     String REJECTED_DIRECTORY_PATH="FileHandling/Financial-Transaction-File-Validator/rejectedFiles_directory";
     String VALIDATED_DIRECTORY_PATH="FileHandling/Financial-Transaction-File-Validator/validatedFiles_directory";
     String ARCHIVED_DIRECTORY_PATH="FileHandling/Financial-Transaction-File-Validator/archived";
+    String SUMMARY_LOG_DIRECTORY_PATH="FileHandling/Financial-Transaction-File-Validator/summary_logs_directory";
 }
