@@ -81,3 +81,4 @@
 2025-07-24T11:33:00.435604600 - File: POR223_TXN_20250714.csv - Error: Invalid filename
 2025-07-24T11:33:00.435604600 - File: xyz789_txn_20250701.csv - Error: Invalid filename
 2025-07-24T11:33:00.435955500 - File: BIG456_TXN_20250724.csv - Error: Invalid row in file
+2025-07-24T12:56:21.190030400 - File: BANK_TXN_202507227319915281958676660.csv - Error: Invalid filename
