@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/multi-module-gradleProject" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/multi-module-gradleProject" />
+            <option value="$PROJECT_DIR$/multi-module-gradleProject/app-api" />
+            <option value="$PROJECT_DIR$/multi-module-gradleProject/app-repository" />
+            <option value="$PROJECT_DIR$/multi-module-gradleProject/app-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/multi-module-gradleproejct" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/multi-module-gradleproejct" />
+            <option value="$PROJECT_DIR$/multi-module-gradleproejct/app" />
+            <option value="$PROJECT_DIR$/multi-module-gradleproejct/service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/single-module-gradleProject" />
         <option name="gradleHome" value="" />
