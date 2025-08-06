@@ -1,0 +1,41 @@
+Java Production Tasks - Beginner Level (1 Year Experience)
+Week 1: Basic Bug Fixes & Code Quality
+Task 1: NullPointerException Fix
+// BROKEN CODE - Fix the NPE
+public class UserService {
+    public String getUserName(User user) {
+        return user.getName().toUpperCase(); // NPE risk!
+    }
+
+    public int getUserAge(User user) {
+        return user.getAge(); // NPE risk!
+    }
+}
+Your Job: Add null checks and return meaningful defaults
+Expected Time: 30 minutes
+Skills Learned: Defensive programming, null safety
+Task 2: Fix String Concatenation Performance
+// SLOW CODE - Fix performance issue
+public String buildReport(List<String> items) {
+    String result = "";
+    for (String item : items) {
+        result = result + item + ", "; // Performance problem!
+    }
+    return result;
+}
+Your Job: Replace with StringBuilder
+Expected Time: 15 minutes
+Skills Learned: String performance optimization
+Task 3: Fix Resource Leak
+// RESOURCE LEAK - Files not closed properly
+public String readFile(String filename) {
+    try {
+        FileReader file = new FileReader(filename);
+        BufferedReader reader = new BufferedReader(file);
+        return reader.readLine();
+    } catch (IOException e) {
+        return "Error reading file";
+    }
+    // Resources never closed!
+Your Job: Use try-with-resources
+Expected Time: 20 minutes
