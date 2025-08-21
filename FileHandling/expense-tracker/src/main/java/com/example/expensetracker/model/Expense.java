@@ -28,6 +28,8 @@ public class Expense {
         this.notes = notes;
     }
 
+
+
     public int getId() {
         return id;
     }
