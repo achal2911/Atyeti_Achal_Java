@@ -1,0 +1,1 @@
+Concurrency in Java is one of the most advanced topics that allow multiple threads to run simultaneously improving performance.

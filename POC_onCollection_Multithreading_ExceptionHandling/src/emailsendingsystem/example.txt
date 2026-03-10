@@ -1,0 +1,6 @@
+Email Sending System
+What happens?
+Use a BlockedQueue<String> to store email addresses.
+One thread adds emails to the queue.
+Another thread removes and sends them.
+Randomly throw an exception like EmailSendingFailedException.

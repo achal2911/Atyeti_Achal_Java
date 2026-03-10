@@ -1,0 +1,7 @@
+Employee Management System
+Problem: Given a list of Employee objects, each with fields like id, name, department, and salary, perform the following:
+Find all employees in a specific department.
+Sort employees by salary in descending order.
+Remove duplicate employees based on ID.
+Group employees by department.
+Collections used: ArrayList, HashMap, Set, TreeSet, etc.

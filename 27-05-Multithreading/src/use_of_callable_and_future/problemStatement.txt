@@ -1,0 +1,11 @@
+Callable and Future to Compute Results
+Problem:
+Write a program to calculate factorial of different numbers concurrently:
+Create multiple Callable<Long> tasks, each computing factorial of a given number.
+Submit them to an ExecutorService.
+Use Future to get results asynchronously.
+Print the factorial result for each number.
+Requirements:
+Use Callable interface for tasks returning results.
+Handle possible exceptions.
+Use Future.get() to retrieve results.

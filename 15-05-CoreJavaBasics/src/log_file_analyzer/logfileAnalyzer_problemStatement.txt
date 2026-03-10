@@ -1,0 +1,9 @@
+. Log File Analyzer
+Scenario:
+You are given a large server log file (logs.txt) where each line contains a timestamp, user ID, and an action performed (e.g., LOGIN, LOGOUT, DOWNLOAD). The file size can be several GBs.
+Task:
+Parse the log file efficiently using Java I/O streams.
+Calculate and output the total number of unique users who performed each action.
+Find the user who performed the maximum number of DOWNLOAD actions.
+Implement the solution with minimal memory footprint.
+Key concepts: File handling, Streams, Collections (HashMap, HashSet), memory efficiency

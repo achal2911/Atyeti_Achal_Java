@@ -1,0 +1,79 @@
+
+* Variable scope (instance, static, local)
+* Shadowing
+* Final variables
+* Type casting and promotion
+* Variable initialization order
+* Default values
+* Static blocks and instance blocks
+* Class-level vs method-level variable lifecycles
+* Mutability vs immutability
+
+Problem Statement: Variable Lifecycle Simulator in a Multi-Class Java System
+Build a Java program that simulates a virtual machine that tracks the lifecycle of all variables in a simulation of a "mission". The mission consists of multiple "Steps", each with its own variables, timers, and configuration constants.
+
+Your task:
+1. Create three Java classes: MissionController, Step, and Config.
+
+2. Config.java:
+
+   * Contains final static constants (like MAX\_STEPS = 10, DEFAULT\_TIMEOUT = 1000).
+
+   * Introduce a static block that prints the variable values when the class is loaded.
+
+   * Include a static final variable that's initialized with a method call.
+
+3. Step.java:
+
+   * Has instance variables: stepId (int), status (String), startTime (long), timeout (int).
+
+   * Has static variables: totalStepsCreated (int).
+
+   * Demonstrate variable shadowing using a method like void updateStatus(String status).
+
+   * Use an instance initializer block to modify instance variables on object creation.
+
+   * Include logic that shows the impact of not initializing a local variable.
+
+4. MissionController.java:
+
+   * Has a main() method.
+
+   * Initialize and run 5 Step objects.
+
+   * Track:
+
+     * total number of steps created
+
+     * step-specific timeouts (show difference between instance and static)
+
+     * memory usage-like simulation using primitive and wrapper variables
+
+   * Use nested blocks to demonstrate variable scope limitations.
+
+   * Inside loops or conditionals, define and shadow variables of the same name as outer scopes and print the values to demonstrate visibility.
+
+Expected Concepts to Explore:
+
+* Static vs instance variables and their lifecycle
+
+* Static blocks vs instance initializer blocks
+
+* Variable scope within nested blocks and methods
+
+* Shadowing and hiding
+
+* Final variables: initialization and immutability
+
+* Type casting: e.g., simulate resource usage with byte, short, int, long
+
+* Wrapper types vs primitive types in memory simulation
+
+* What happens when you declare but don’t initialize a local variable?
+
+* Default values of instance variables vs local variables
+
+Bonus Twist:
+
+Create a debug method that uses reflection to print all variables of a Step object including their type, value, and scope.
+

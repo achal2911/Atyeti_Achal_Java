@@ -1,0 +1,15 @@
+Producer-Consumer Problem
+Problem:
+Implement the classic producer-consumer scenario using Java threads.
+Producer thread(s) generate data and put it into a shared buffer.
+Consumer thread(s) take data from the buffer and process it.
+The buffer has limited capacity.
+Synchronize access using wait() and notify().
+Requirements:
+Use a fixed-size queue as the buffer.
+Producer should wait if the buffer is full.
+Consumer should wait if the buffer is empty.
+Both should notify each other when they add/remove items.
+Expected Behavior:
+Producers and consumers work concurrently without data loss or corruption.
+Program runs indefinitely or for a fixed number of produced items.

@@ -1,0 +1,33 @@
+🔸 Problem 2: Game Score Tracker with Global, Local, and Final Variables
+
+📝 Requirements:
+
+Create a class GameTracker with:
+
+Instance Variables: playerName, score, level
+
+final int MAX_LEVEL = 10;
+
+Methods:
+
+increaseScore(int score) – Increase player’s score
+
+levelUp() – Increment level, prevent exceeding MAX_LEVEL
+
+resetGame() – Reset score and level to 0
+
+Inside increaseScore(), declare a local variable named score to demonstrate shadowing.
+
+Print both the local and global score values using this.score and score.
+
+🧠 Concepts Covered:
+
+Local vs global (instance) variables
+
+Use of final for constants
+
+Variable shadowing
+
+Scope resolution with this
+
+Safe updates within limits (MAX_LEVEL)

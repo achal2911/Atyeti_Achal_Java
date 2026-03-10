@@ -1,0 +1,14 @@
+Basic Executor Service with Fixed Thread Pool
+Problem:
+Create a program that:
+Creates a fixed thread pool of size 3 using Executors.newFixedThreadPool(3).
+Submits 10 tasks that print the current thread name and task number.
+Shutdown the executor properly after tasks complete.
+Requirements:
+Use ExecutorService.submit(Runnable).
+Tasks should run concurrently, but max 3 at a time.
+Call shutdown() and wait for termination.
+Expected Behavior:
+Tasks print thread info.
+Thread pool size remains constant at 3.
+Program exits after all tasks complete.

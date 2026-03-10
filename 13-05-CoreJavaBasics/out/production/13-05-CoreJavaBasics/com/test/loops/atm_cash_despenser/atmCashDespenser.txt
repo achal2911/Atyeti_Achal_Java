@@ -1,0 +1,7 @@
+ATM Cash Dispenser Simulation
+🧾 Problem Statement:
+Write a Java method that simulates dispensing cash from an ATM.
+The ATM has ₹2000, ₹500, and ₹100 notes only.
+When a customer enters the amount to withdraw, the ATM should return the minimum number of notes.
+
+You must use loops to calculate the note count — no division (/) or modulo (%) allowed.
